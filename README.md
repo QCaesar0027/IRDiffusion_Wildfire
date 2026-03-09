@@ -46,7 +46,7 @@ After downloading and extracting the files, place them in the **project root dir
 
 ---
 
-### Fire Detection Model
+## Fire Detection Model
 
 - [Detection Model](https://pan.baidu.com/s/1NubC0OG3_elkGZCA04gOTQ?pwd=7xe5)  
   Extraction code: **7xe5**
@@ -56,7 +56,7 @@ The second download link contains a trained **YOLO fire detection model**:
 
 ---
 
-## 🚀 Training
+##  Training
 
 To train the infrared-guided diffusion model(LoRA fine-tuning), for example, run:
 
@@ -66,7 +66,7 @@ python train.py   --instance_data_dir ./data/fire_pairs_new   --output_dir ./lor
 
 ---
 
-## 🔍 Testing
+##  Testing
 
 To test the trained model and generate wildfire images, for example, run:
 
@@ -75,7 +75,7 @@ python -u test.py   --base-model runwayml/stable-diffusion-v1-5   --compare-pret
 ```
 
 
-##  comparison experiment
+##  Comparison experiment
 
 To run the comparison experiments, for example, use:
 
@@ -88,7 +88,7 @@ python test_baseline.py \
 ```
 ---
 
-## 🔍 evaluate
+##  Evaluate
 
 clip, fid, LPIPS, psnr .....
 
