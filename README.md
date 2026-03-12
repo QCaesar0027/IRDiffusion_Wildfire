@@ -2,6 +2,8 @@
 
 **Shichang Xu Cao, Pengle Cheng, and Juan Liu<sup>*</sup>**
 
+Note: This code is associated with our manuscript 'Infrared-Guided Diffusion Models for Realistic Wildfire Image Synthesis' submitted to The Visual Computer. If you find our work helpful, please consider citing our paper.
+
 ---
 
 ##  Environment
