@@ -31,11 +31,19 @@ cd IRDiffusion_Wildfire
 
 ## Dataset
 
-You can download the datasets from the following links:
-After downloading and extracting the files, place them in the **project root directory**.
+The wildfire image datasets used in this project can be downloaded from the following links.
 
-- [Wildfire Dataset](https://pan.baidu.com/s/1icvJXJB4gMyk7J0AaqCziQ?pwd=jc49)  
-  Extraction code: **jc49**
+### Download links
+
+- **Google Drive (recommended for international access):**  
+
+  https://drive.google.com/drive/folders/1Naj_ZDr8o8UWqxbmtQoS72Au98uMwwK6?usp=drive_link
+
+- **Baidu Netdisk (backup mirror):**  
+
+  https://pan.baidu.com/s/1icvJXJB4gMyk7J0AaqCziQ?pwd=jc49  
+
+  Extraction code: `jc49`
 
   Description:
 
@@ -50,8 +58,19 @@ After downloading and extracting the files, place them in the **project root dir
 
 ## Fire Detection Model
 
-- [Detection Model](https://pan.baidu.com/s/1NubC0OG3_elkGZCA04gOTQ?pwd=7xe5)  
-  Extraction code: **7xe5**
+The pretrained fire detection model used for the detector-based downstream evaluation can be downloaded from the following links.
+
+### Download links
+
+- **Google Drive (recommended for international access):**  
+
+  https://drive.google.com/drive/folders/1I-XTGkfQ3sHlHdYpvB5rQNcLKSS0diFS?usp=drive_link
+
+- **Baidu Netdisk (backup mirror):**  
+
+  https://pan.baidu.com/s/1NubC0OG3_elkGZCA04gOTQ?pwd=7xe5  
+
+  Extraction code: `7xe5`
 
   Description:
 The second download link contains a trained **YOLO fire detection model**:
