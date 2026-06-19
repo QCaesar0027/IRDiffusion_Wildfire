@@ -149,25 +149,19 @@ python test_baseline.py \
 
 clip, fid, LPIPS, psnr .....
 
-### Main Quantitative Results
+## Main Quantitative Results
 
 The main quantitative comparison reported in the manuscript is shown below.
 
 | Method | CLIP Score ↑ | CLIP Conf ↑ | CFID ↓ | PSNR ↑ | PCC ↑ | SSIM ↑ | RMSE ↓ |
-
 |---|---:|---:|---:|---:|---:|---:|---:|
-
 | ControlNet-Canny | 32.7238 | 0.8816 | 59.8404 | 24.4874 | 0.0342 | 0.9224 | 0.3457 |
-
 | ControlNet-HED | 32.7634 | 0.8797 | 54.2866 | 24.9320 | 0.0060 | 0.9219 | 0.3441 |
-
 | ControlNet-Scribble | 32.5695 | 0.8713 | 41.0988 | 24.5646 | -0.0350 | 0.9220 | 0.3538 |
-
 | ControlNet-Lineart | 33.0531 | 0.8974 | 65.4450 | 24.4676 | 0.0464 | 0.9224 | 0.3453 |
-
 | ControlNet-SoftEdge | 32.6116 | 0.8716 | 55.1372 | 24.8169 | -0.0171 | 0.9219 | 0.3475 |
-
 | **IRGDM (Ours)** | **33.1271** | **0.9103** | **33.1836** | **25.8418** | **0.2713** | **0.9253** | **0.3319** |
+
 
 ---
 
